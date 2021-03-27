@@ -1,0 +1,13 @@
+D:\MTA Projects\B21 Ex01 Dekel 312236011 Shirly 207021502\B21_Ex01_2\obj\Debug\netcoreapp3.1\B21_Ex01_2.csprojAssemblyReference.cache
+D:\MTA Projects\B21 Ex01 Dekel 312236011 Shirly 207021502\B21_Ex01_2\obj\Debug\netcoreapp3.1\B21_Ex01_2.AssemblyInfoInputs.cache
+D:\MTA Projects\B21 Ex01 Dekel 312236011 Shirly 207021502\B21_Ex01_2\obj\Debug\netcoreapp3.1\B21_Ex01_2.AssemblyInfo.cs
+D:\MTA Projects\B21 Ex01 Dekel 312236011 Shirly 207021502\B21_Ex01_2\obj\Debug\netcoreapp3.1\B21_Ex01_2.csproj.CoreCompileInputs.cache
+D:\MTA Projects\B21 Ex01 Dekel 312236011 Shirly 207021502\B21_Ex01_2\bin\Debug\netcoreapp3.1\B21_Ex01_2.exe
+D:\MTA Projects\B21 Ex01 Dekel 312236011 Shirly 207021502\B21_Ex01_2\bin\Debug\netcoreapp3.1\B21_Ex01_2.deps.json
+D:\MTA Projects\B21 Ex01 Dekel 312236011 Shirly 207021502\B21_Ex01_2\bin\Debug\netcoreapp3.1\B21_Ex01_2.runtimeconfig.json
+D:\MTA Projects\B21 Ex01 Dekel 312236011 Shirly 207021502\B21_Ex01_2\bin\Debug\netcoreapp3.1\B21_Ex01_2.runtimeconfig.dev.json
+D:\MTA Projects\B21 Ex01 Dekel 312236011 Shirly 207021502\B21_Ex01_2\bin\Debug\netcoreapp3.1\B21_Ex01_2.dll
+D:\MTA Projects\B21 Ex01 Dekel 312236011 Shirly 207021502\B21_Ex01_2\bin\Debug\netcoreapp3.1\B21_Ex01_2.pdb
+D:\MTA Projects\B21 Ex01 Dekel 312236011 Shirly 207021502\B21_Ex01_2\obj\Debug\netcoreapp3.1\B21_Ex01_2.dll
+D:\MTA Projects\B21 Ex01 Dekel 312236011 Shirly 207021502\B21_Ex01_2\obj\Debug\netcoreapp3.1\B21_Ex01_2.pdb
+D:\MTA Projects\B21 Ex01 Dekel 312236011 Shirly 207021502\B21_Ex01_2\obj\Debug\netcoreapp3.1\B21_Ex01_2.genruntimeconfig.cache
