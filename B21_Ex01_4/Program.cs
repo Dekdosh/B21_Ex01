@@ -2,7 +2,7 @@
 
 namespace B21_Ex01_4
 {
-    /// <summary> This program prints an hourglass shape of stars according to a size given by the user </summary>
+    /// <summary> This program gets an input of a string and checks if palindrome, divided by 4 and how many upper-case chars </summary>
     class Program
     {
         public static void Main(string[] args)
