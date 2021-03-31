@@ -102,15 +102,18 @@ namespace B21_Ex01_4
         /// <summary>This function checks if it's a number than if it's divided by 4</summary>
         private static bool IsDividedByFour(string i_string)
         {
+            bool result;
             long number = long.Parse(i_string);
             if (number % 4 == 0)
             {
-                return true;
+                result = true;
             }
             else
             {
-                return false;
+                result = false;
             }
+
+            return result;
         }
 
         /// <summary>This function returns the number of upper case characters</summary>
