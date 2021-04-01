@@ -47,7 +47,6 @@ namespace B21_Ex01_4
             bool flag = true;
             if (i_string.Length != 10)
             {
-                Console.WriteLine("Wrong input! Please enter a string with 10 characters:");
                 flag = false;
             }
 
@@ -57,7 +56,6 @@ namespace B21_Ex01_4
                 {
                     if (!char.IsDigit(i_string[i]))
                     {
-                        Console.WriteLine("Wrong input! Please enter a string only digits / only english chars:");
                         flag = false;
                         break;
                     }
@@ -69,10 +67,15 @@ namespace B21_Ex01_4
                 {
                     if (char.IsDigit(i_string[i]))
                     {
-                        Console.WriteLine("Wrong input! Please enter a string only digits / only english chars:");
                         flag = false;
+                        break;
                     }
                 }
+            }
+
+            if (flag == false)
+            {
+                Console.WriteLine("Wrong input! Please enter the string again:");
             }
 
             return flag;
