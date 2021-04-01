@@ -56,24 +56,26 @@ namespace B21_Ex01_1
         /// <returns> True if string is valid, false is not. </returns>
         private static bool checkIfStringIsValid(string i_string)
         {
+            bool isValid = true;
+
             if(i_string.Length != 7)
             {
                 Console.WriteLine("Wrong input! Please enter a binary number:");
 
-                return false;
+                isValid = false;
             }
 
-            for (int i = 0; i < i_string.Length; i++)
+            for (int i = 0; i < i_string.Length && isValid; i++)
             {
                 if (i_string[i] != '1' && i_string[i] != '0')
                 {
                     Console.WriteLine("Wrong input! Please enter a binary number:");
 
-                    return false;
+                    isValid = false;
                 }
             }
 
-            return true;
+            return isValid;
         }
 
         /// <summary> Converts three binary numbers to decimal, then prints them. </summary>
@@ -119,7 +121,7 @@ namespace B21_Ex01_1
         /// <param name="i_number3"> The third binary number. </param>
         private static void printAverageDigitsOfNumbers(string i_number1, string i_number2, string i_number3)
         {
-            float zeroAverage = 0, oneAverage = 0;
+            int zeroAverage = 0, oneAverage = 0;
 
             countDigitsOfBinaryNumber(i_number1, ref zeroAverage, ref oneAverage);
             countDigitsOfBinaryNumber(i_number2, ref zeroAverage, ref oneAverage);
@@ -134,7 +136,7 @@ namespace B21_Ex01_1
         /// <param name="i_number"> The binary number. </param>
         /// <param name="io_zeroCounter"> Total number of zeros. </param>
         /// <param name="io_oneCounter"> Total number of ones. </param>
-        private static void countDigitsOfBinaryNumber(string i_number, ref float io_zeroCounter, ref float io_oneCounter)
+        private static void countDigitsOfBinaryNumber(string i_number, ref int io_zeroCounter, ref int io_oneCounter)
         {
             for (int i = 0; i < i_number.Length; i++)
             {
@@ -176,8 +178,9 @@ namespace B21_Ex01_1
         private static int isBinaryNumberPowerOftwo(string i_number)
         {
             bool isOneFound = false;
+            int isPowerOfTwo = 1;
 
-            for (int i = 0; i < i_number.Length; i++)
+            for (int i = 0; i < i_number.Length && (isPowerOfTwo != 0); i++)
             {
                 if(i_number[i] == '1')
                 {
@@ -187,12 +190,12 @@ namespace B21_Ex01_1
                     }
                     else
                     {
-                        return 0;
+                        isPowerOfTwo = 0;
                     }
                 }
             }
 
-            return 1;
+            return isPowerOfTwo;
         }
 
         /// <summary> Prints the amount of numbers that are an ascending series. </summary>
@@ -222,19 +225,20 @@ namespace B21_Ex01_1
         private static int isNumberAscendingSeries(int i_number)
         {
             int previousDigit = 10;
+            int isAscending = 1;
 
-            while (i_number > 0)
+            while (i_number > 0 && isAscending != 0)
             {
-                if((i_number % 10) > previousDigit)
+                if((i_number % 10) >= previousDigit)
                 {
-                    return 0;
+                    isAscending = 0;
                 }
 
                 previousDigit = i_number % 10;
                 i_number /= 10;
             }
 
-            return 1;
+            return isAscending;
         }
 
         /// <summary> Prints the biggest number out of three given numbers. </summary>
